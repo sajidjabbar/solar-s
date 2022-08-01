@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap");
+/* Prelaoder */
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	overflow: hidden;
+	background: #000;
+}
+
+#preloader:before {
+	content: "";
+	position: fixed;
+	top: calc(50% - 30px);
+	left: calc(50% - 30px);
+	border: 6px solid #f2f2f2;
+	border-top: 6px solid #0068b4;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	-webkit-animation: animate-preloader 1s linear infinite;
+	animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes animate-preloader {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+/* qr-code  starts here */
+.qr-code-sec {
+	background-image: url("../img/SolarWindmill.jpg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	position: relative;
+}
+.qr-code-sec .background-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #000000a8;
+}
+/* .qr-code-sec .logo-wrapper img {
+	width: 184px;
+} */
+.qr-code-sec .side-bar-wrapper {
+	background: #fff;
+	border-radius: 30px;
+	padding: 20px;
+}
+.qr-code-sec .side-bar-wrapper .profile-wrapper {
+	margin-top: -82px;
+	text-align: center;
+}
+.qr-code-sec .side-bar-wrapper .profile-wrapper img {
+	border: 3px solid white;
+	border-radius: 50%;
+	height: 134px;
+	width: 134px;
+	object-fit: cover;
+}
+.qr-code-sec .side-bar-wrapper .profile-name-wrapper h3 {
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 26px;
+	margin: 0px;
+}
+.qr-code-sec .side-bar-wrapper .profile-name-wrapper h5 {
+	font-family: "Poppins";
+	font-weight: 400;
+	font-size: 15px;
+	color: #aaaaaa;
+}
+.qr-code-sec .side-bar-wrapper .profile-name-wrapper {
+	margin-top: 10px;
+}
+.qr-code-sec .qr-text-wrapper {
+	text-align: center;
+	padding: 40px 0px;
+}
+.qr-code-sec .qr-text-wrapper h4 {
+	color: #fff;
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 20px;
+}
+.qr-code-sec .qr-text-wrapper h5 {
+	color: #f8bc26;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 26px;
+}
+.qr-code-sec .qr-img-wrapper button {
+	margin: 0px;
+	background: transparent;
+	border: 0px;
+}
+.qr-code-sec .social-btn-wrapper a.btn {
+	width: 100%;
+	margin: 18px 0px;
+	padding: 12px 0px;
+	display: flex;
+	align-items: center;
+	border-radius: 7px;
+	font-family: "Poppins";
+}
+.qr-code-sec .social-btn-wrapper a.btn i {
+	margin-right: 15px;
+	flex: 0 0 27%;
+	text-align: end;
+}
+.qr-code-sec .social-btn-wrapper a.btn span {
+	flex: 0 0 58%;
+	text-align: initial;
+}
+.qr-code-sec .social-wrapper a.btn.email {
+	background: #f3f1f1;
+	color: #000;
+}
+.qr-code-sec .social-wrapper a.btn.facebook {
+	background: #345caf;
+	color: #fff;
+}
+.qr-code-sec .social-wrapper a.btn.instagram {
+	background: #dc4460;
+	color: #fff;
+}
+.qr-code-sec .social-wrapper a.btn.whatsapp {
+	background: #1dbf33;
+	color: #fff;
+}
+.qr-code-sec .social-wrapper a.btn.twitter {
+	background: #56aaed;
+	color: #fff;
+}
+.qr-code-sec .social-wrapper a.btn.tiktok {
+	background: #0f0f0f;
+	color: #fff;
+}
+.qr-code-sec .social-wrapper {
+	padding-top: 4px;
+	border-top: 1px solid #f3f3f3;
+	margin-top: 15px;
+}
+/* responsive starts here */
+@media (max-width: 480px) {
+	.qr-code-sec .col-lg-4 {
+		padding: 0px;
+	}
+	.qr-code-sec {
+		padding-bottom: 0px;
+	}
+}
+/* responsive ends here */
+/* qr-code  ends here */
