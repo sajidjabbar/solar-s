@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="row pt-5">
-            <div class="col-lg-5">
+            <div class="col-lg-6 ml-auto mr-auto">
                 <div class="side-bar-wrapper">
                     <div class="profile-wrapper">
                         <div class="profile-img-wrapper">
