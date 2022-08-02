@@ -10,7 +10,9 @@
 	overflow: hidden;
 	background: #000;
 }
-
+.email-icon {
+	font-size: 25px;
+}
 #preloader:before {
 	content: "";
 	position: fixed;
