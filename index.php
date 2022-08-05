@@ -36,7 +36,7 @@
                     </div>
                     <div class="social-wrapper">
                         <div class="social-btn-wrapper">
-                            <a href="https://solar-s.com.sa/" target="blank" class="btn email"><i class="fa fa-envelope-o email-icon" aria-hidden="true"></i> <span>Sultan@solar-s.com.sa</span> </a>
+                            <a href="mailto:Sultan@solar-s.com.sa" target="blank" class="btn email"><i class="fa fa-envelope-o email-icon" aria-hidden="true"></i> <span>Sultan@solar-s.com.sa</span> </a>
                             <a href="https://www.facebook.com/Solar.S.official" target="blank" class="btn facebook"><i><img src="img/facebook.png" alt=""></i> <span>Facebook</span> </a>
                             <a href="https://www.instagram.com/solar_s.official/" target="blank" class="btn instagram"><i><img src="img/instagram.png" alt=""></i> <span>Instagram</span> </a>
                             <a href="#" target="blank" class="btn whatsapp"><i><img src="img/whatsapp.png" alt=""></i> <span>whatsapp</span> </a>
